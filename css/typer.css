@@ -1,0 +1,91 @@
+body{
+    background-color:#E4E5E6;
+}
+
+.lbl-texto{
+    background-color: firebrick;
+    color: #FFF;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    position: relative;
+    left:3px;
+    z-index: 2;
+}
+
+.principal{
+    padding:15px;    
+    padding-bottom: 40px;
+}
+
+
+.resultado{
+    padding:40px;
+    border-top: 5px solid #333;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#frase-form{
+    z-index: 1;
+    border-top-left-radius: 0px;
+    box-shadow:#333;
+}
+
+#frase-form:focus{
+    box-shadow: none;
+}
+
+
+#frase{
+    display: inline;
+    font-weight: bold;
+}
+
+.principal p{
+    text-align: center; 
+}
+
+#quantidade-palavras, #segundos-restante{
+    font-weight: bold;
+}
+
+.frase-correta, .frase-correta:focus{
+    border: 3px solid forestgreen;
+}
+
+.frase-incorreta, .frase-incorreta:focus{
+    border: 3px solid firebrick;
+}
+
+.botoes-typer a{
+    font-size:2em;
+    color:#000;
+    padding-left:30px;
+}
+
+.marcadores{
+    margin-top:10px;
+}
+
+.topo{
+    text-align: center;
+    margin:40px 15px;
+}
+
+.logoTyper{
+    display: inline-block;
+}
+
+.logo-marca{
+    padding:15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom: 5px solid firebrick;
+}
+
+.logo-marca h1{
+    vertical-align: middle;
+}
+
+.logoTyper + h1{
+    display: inline-block;
+}
