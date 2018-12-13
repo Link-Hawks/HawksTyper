@@ -19,10 +19,7 @@ body{
 
 
 .resultado{
-    padding:40px;
-    border-top: 5px solid #333;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top: solid transparent;
 }
 #frase-form{
     z-index: 1;
@@ -68,7 +65,7 @@ body{
 
 .topo{
     text-align: center;
-    margin:40px 15px;
+    margin:15px 15px;
 }
 
 .logoTyper{
